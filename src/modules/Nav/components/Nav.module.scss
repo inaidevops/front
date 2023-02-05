@@ -1,0 +1,12 @@
+@import '../../../style/mixins/mixins';
+@import '../../../style/variables/colors';
+
+.Nav{
+  @include container;
+  width: 100%;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: $accent;
+  position: sticky;
+  z-index: 1;
+}

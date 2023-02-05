@@ -1,0 +1,11 @@
+@import './variables/_colors.scss';
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: $main;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+  // overflow: hidden;
+}
